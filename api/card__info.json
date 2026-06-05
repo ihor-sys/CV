@@ -1,18 +1,18 @@
 [
     {
-        "tag": "h2",
+        "tag": "h1",
         "children": ["I'm Ihor"]
     },
     {
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "frame-media frame-media__left",
             "style": "background-image: url(./media/ihorFedorovCV.webp);"
         },
         "children": [
             {
                 "tag": "div",
-                "attrs": { 
+                "attrs": {
                     "class": "frame-blur__bg"
                 }
             }
@@ -21,7 +21,7 @@
     {
         "globalClass": " frame__bg",
         "tag": "video",
-        "attrs": { 
+        "attrs": {
             "class": "frame-media frame-media__right",
             "src": "./media/wrateCode.webm",
             "autoplay": true,
@@ -32,46 +32,46 @@
     {
         "globalClass": " frame__bg",
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "text-left"
         },
         "children": [
             {
                 "tag": "h3",
-                "children": ["I write on JavaScript"]
+                "children": ["Lead Frontend Developer"]
             },
             {
                 "tag": "p",
-                "children": ["I'm from Ukraine but live in Bratislava"]
+                "children": ["Web Components · modern CSS · .NET. From Ukraine, based in Bratislava."]
             }
         ]
     },
     {
         "globalClass": " frame__bg",
         "tag": "h3",
-        "children": ["01.2018&nbsp;to&nbsp;the&nbsp;present&nbsp;day"]
+        "children": ["01.2018&nbsp;to&nbsp;11.2019"]
     },
     {
         "globalClass": " frame__bg",
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "frame__content"
         }
     },
     {
         "globalClass": " frame__bg",
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "text-right"
         },
         "children": [
             {
                 "tag": "h3",
-                "children": ["Freelance:&nbsp;Javascript"]
+                "children": ["Freelance&nbsp;—&nbsp;JavaScript"]
             },
             {
                 "tag": "p",
-                "children": ["Frontend Developer."]
+                "children": ["Frontend Developer. Responsive landing pages for clients: clean, cross-browser, mobile-first HTML/CSS."]
             }
         ]
     },
@@ -81,7 +81,7 @@
     {
         "globalClass": " frame__bg",
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "text-left"
         },
         "children": [
@@ -92,34 +92,12 @@
             {
                 "tag": "ul",
                 "children": [
-                    {
-                        "tag": "li",
-                        "children": ["HTML"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["CSS"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["SCSS"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["JavaScript"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["React"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["jquery"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["AppsScript"]
-                    }
+                    { "tag": "li", "children": ["HTML"] },
+                    { "tag": "li", "children": ["CSS"] },
+                    { "tag": "li", "children": ["SCSS"] },
+                    { "tag": "li", "children": ["JavaScript"] },
+                    { "tag": "li", "children": ["jQuery"] },
+                    { "tag": "li", "children": ["Responsive Design"] }
                 ]
             }
         ]
@@ -127,23 +105,23 @@
     {
         "globalClass": " frame__bg",
         "tag": "h3",
-        "children": ["12.2019&nbsp;to&nbsp;01.2023"]
+        "children": ["12.2019&nbsp;to&nbsp;11.2022"]
     },
     {
         "globalClass": " frame__bg",
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "frame-media frame-media__right",
             "style": "background-image: url(./media/logo/hankuper.svg);"
         }
     },
     {
         "tag": "div"
-    },  
+    },
     {
         "globalClass": " frame__bg",
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "text-left"
         },
         "children": [
@@ -153,78 +131,32 @@
             },
             {
                 "tag": "p",
-                "children": ["Product AdLock"]
+                "children": ["Product: AdLock — ad blocker"]
             },
             {
                 "tag": "p",
-                "children": ["My main task was to research the advertising market.",
-                        "Development of algorithms for blocking ads.",
-                        "Development of an internal \"Ticket system\" for customer support.",
-                        "Automation of the process of assembling resources for blocking ads and their autotesting."
-                    ]
+                "children": ["Led AdLock development for ~1 year."]
             }
         ]
     },
     {
-        "tag": "div"
-    },
-    {
         "globalClass": " frame__bg",
-        "tag": "div"
-    },
-    {
         "tag": "div",
-        "attrs": { 
-            "class": "text-left"
+        "attrs": {
+            "class": "text-right"
         },
         "children": [
             {
                 "tag": "h3",
-                "children": ["Skills"]
+                "children": ["Highlights"]
             },
             {
                 "tag": "ul",
                 "children": [
-                    {
-                        "tag": "li",
-                        "children": ["HTML"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["CSS"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["SCSS"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["SASS"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["JavaScript"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["React"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["Styled components"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["Node.js"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["jquery"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["Auto-test"]
-                    }
+                    { "tag": "li", "children": ["3-day manual process → ~30 min"] },
+                    { "tag": "li", "children": ["Diffed millions of lines via binary search"] },
+                    { "tag": "li", "children": ["Node.js ad-rule scrapers"] },
+                    { "tag": "li", "children": ["Internal support ticket system"] }
                 ]
             }
         ]
@@ -235,23 +167,47 @@
     },
     {
         "globalClass": " frame__bg",
+        "tag": "div",
+        "attrs": {
+            "class": "text-left"
+        },
+        "children": [
+            {
+                "tag": "h3",
+                "children": ["Skills"]
+            },
+            {
+                "tag": "ul",
+                "children": [
+                    { "tag": "li", "children": ["JavaScript"] },
+                    { "tag": "li", "children": ["Node.js"] },
+                    { "tag": "li", "children": ["Web scraping"] },
+                    { "tag": "li", "children": ["Automation"] },
+                    { "tag": "li", "children": ["Auto-tests"] },
+                    { "tag": "li", "children": ["React"] }
+                ]
+            }
+        ]
+    },
+    {
+        "globalClass": " frame__bg",
         "tag": "h3",
         "children": ["11.2022&nbsp;to&nbsp;the&nbsp;present&nbsp;day"]
     },
     {
         "globalClass": " frame__bg",
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "frame-media frame-media__right",
             "style": "background-image: url(./media/logo/logoEunify.png); background-size: auto;"
         }
     },
     {
         "tag": "div"
-    },  
+    },
     {
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "text-left"
         },
         "children": [
@@ -261,21 +217,39 @@
             },
             {
                 "tag": "p",
-                "children": ["Product: uManage, eUnifyPay, CommunityLink, PropDocs"]
+                "children": ["Products: uManage, eUnifyPay, CommunityLink, PropDocs"]
             },
             {
                 "tag": "p",
-                "children": ["My job Front-End Developer."]
+                "children": ["Lead Frontend Developer."]
             }
         ]
     },
     {
         "globalClass": " frame__bg",
-        "tag": "div"
+        "tag": "div",
+        "attrs": {
+            "class": "text-right"
+        },
+        "children": [
+            {
+                "tag": "h3",
+                "children": ["Highlights"]
+            },
+            {
+                "tag": "ul",
+                "children": [
+                    { "tag": "li", "children": ["LiteGrid — Web Components dashboard grid"] },
+                    { "tag": "li", "children": ["Chat library on Web Components"] },
+                    { "tag": "li", "children": ["Reactive-CSS layout + seasonal themes"] },
+                    { "tag": "li", "children": ["Modernized Telerik / Web Forms UI"] }
+                ]
+            }
+        ]
     },
     {
         "tag": "div",
-        "attrs": { 
+        "attrs": {
             "class": "text-right"
         },
         "children": [
@@ -286,39 +260,39 @@
             {
                 "tag": "ul",
                 "children": [
-                    {
-                        "tag": "li",
-                        "children": ["HTML"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["CSS"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["JavaScript"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["C#"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["ASP.NET"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["MAUI"]
-                    },
-                    {
-                        "tag": "li",
-                        "children": ["jquery"]
-                    }
+                    { "tag": "li", "children": ["JavaScript"] },
+                    { "tag": "li", "children": ["TypeScript"] },
+                    { "tag": "li", "children": ["Web Components"] },
+                    { "tag": "li", "children": ["Modern CSS"] },
+                    { "tag": "li", "children": ["C#"] },
+                    { "tag": "li", "children": ["ASP.NET Core"] },
+                    { "tag": "li", "children": ["MAUI"] }
                 ]
             }
         ]
     },
     {
+        "globalClass": " frame__bg",
+        "tag": "div",
+        "attrs": {
+            "class": "text-left"
+        },
+        "children": [
+            {
+                "tag": "h3",
+                "children": ["Side&nbsp;Projects"]
+            },
+            {
+                "tag": "ul",
+                "children": [
+                    { "tag": "li", "children": ["CV Builder SaaS — Web Components + ASP.NET, Stripe"] },
+                    { "tag": "li", "children": ["SVG Animator — browser tool"] }
+                ]
+            }
+        ]
+    },
+    {
+        "globalClass": " frame__bg",
         "tag": "div"
     },
     {
@@ -330,7 +304,7 @@
                     "E-mail: ",
                     {
                         "tag": "a",
-                        "attrs": { 
+                        "attrs": {
                             "class": "link",
                             "target": "_blank",
                             "href": "mailto:ihor.fedorov.life@gmail.com"
@@ -345,7 +319,7 @@
                     "Github: ",
                     {
                         "tag": "a",
-                        "attrs": { 
+                        "attrs": {
                             "class": "link",
                             "target": "_blank",
                             "href": "https://github.com/IhorFedorov7"
@@ -360,7 +334,7 @@
                     "Telegram: ",
                     {
                         "tag": "a",
-                        "attrs": { 
+                        "attrs": {
                             "class": "link",
                             "target": "_blank",
                             "href": "https://t.me/goodSoftDev"
