@@ -3,6 +3,9 @@ import { jsonToHtml } from "./Utils/jsonToHtml.js";
 import "./webComponents/Card.js";
 
 
+const Z_SPACING = 1000;
+const SPEED = 2.6;
+
 window.addEventListener("DOMContentLoaded", () => {
     fetch('./api/card__info.json')
     .then(response => {
@@ -21,7 +24,12 @@ window.addEventListener("DOMContentLoaded", () => {
         };
         
         requestAnimationFrame(() => {
-            new SmoothScroll({ ease: 0.12, speed: 2.6, zSpacing: -1000 });
+            const perCard = Z_SPACING / SPEED;
+            const depth = data.length * perCard + window.innerHeight;
+            
+            document.documentElement.style.setProperty('--depth', `${depth}px`);
+        
+            new SmoothScroll({ ease: 0.12, speed: SPEED, zSpacing: -Z_SPACING });
 
             window.scrollTo(0, 1);
         });
